@@ -1,11 +1,10 @@
-const mon = 'Mon';
-const tue = 'Tue';
-const wed = 'Wed';
-const thu = 'Thu';
-const fri = 'Fri';
-const sat = 'Sat';
-const sun = 'Sun';
+const player = {
+    name: 'Kim',
+    health: 100,
+    age: 25,
+    points: 10,
+    fat: false,
+};
 
-const daysOfWeek = [mon, tue, wed, thu, fri, sat, sun];
-
-console.log(daysOfWeek);
+player.name = 'Suji';
+console.log(player.name);
